@@ -42,7 +42,7 @@ public class Account {
 	void calculateInterest(int years) {
 		double interestRate = .042;
 		double newBal = (balance * interestRate * years) + balance;
-		System.out.println("The current interest rate is " + (100 * interestRate));
+		System.out.println("The current interest rate is " + (100 * interestRate) + "%");
 		System.out.println("After " + years + "years, your balance will be: " + newBal);
 	}
 	
